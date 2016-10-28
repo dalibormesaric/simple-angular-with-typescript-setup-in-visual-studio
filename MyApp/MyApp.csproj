@@ -26,12 +26,12 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="scripts\custom\my-app\dt\angularjs\angular.d.ts" />
-    <TypeScriptCompile Include="scripts\custom\my-app\dt\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="scripts\custom\my-app\modules\application\ApplicationController.ts" />
     <TypeScriptCompile Include="scripts\custom\my-app\modules\application\ApplicationModule.ts" />
     <TypeScriptCompile Include="scripts\custom\my-app\modules\application\ApplicationService.ts" />
     <TypeScriptCompile Include="scripts\custom\my-app\modules\application\_contracts\IApplicationService.ts" />
+    <TypeScriptCompile Include="scripts\custom\my-app\typings\angularjs\angular.d.ts" />
+    <TypeScriptCompile Include="scripts\custom\my-app\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="scripts\custom\my-app\tsconfig.json" />
